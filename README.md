@@ -22,6 +22,10 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
     "#*": "./dist/*"
   }
   ```
+- **Import example** with path alias in typescript
+  ```ts
+  import { logIt } from '#utils/log-it.js';
+  ```
 
 ## Usage
 1. **Install dependencies**
