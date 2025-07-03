@@ -1,7 +1,8 @@
 # node-path-aliases
 
 A minimal Node.js + TypeScript starter project demonstrating path aliasing using `tsconfig.json` and Node.js `imports` field.
-[read more about node imports](https://nodejs.org/api/packages.html#imports)
+
+[Read more about node imports](https://nodejs.org/api/packages.html#imports)
 
 ## Features
 - TypeScript with modern configuration (`esnext`, `nodenext`)
