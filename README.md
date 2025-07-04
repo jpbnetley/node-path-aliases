@@ -24,9 +24,9 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
   ```
 - **Import examples** with path aliases in TypeScript:
   ```ts
-import { logAll } from '#utils/log/log-all.js';
-import { logIt } from '#utils/log/log-it.js';
-import { logMe } from '#utils/log/log-me.js';
+  import { logAll } from '#utils/log/log-all.js';
+  import { logIt } from '#utils/log/log-it.js';
+  import { logMe } from '#utils/log/log-me.js';
   ```
 
 ## Usage
