@@ -6,7 +6,7 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
 
 ## Features
 - TypeScript with modern configuration (`esnext`, `nodenext`)
-- Path aliases for cleaner imports (e.g., `#utils/log-it.js`)
+- Path aliases for cleaner imports (e.g., `#utils/log-it.js`, `#utils/log-me.js`)
 - Simple example utilities
 
 ## Path Aliasing
@@ -22,9 +22,11 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
     "#*": "./dist/*"
   }
   ```
-- **Import example** with path alias in typescript
+- **Import examples** with path aliases in TypeScript:
   ```ts
-  import { logIt } from '#utils/log-it.js';
+import { logAll } from '#utils/log/log-all.js';
+import { logIt } from '#utils/log/log-it.js';
+import { logMe } from '#utils/log/log-me.js';
   ```
 
 ## Usage
@@ -43,7 +45,9 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
 
 ## Example Output
 ```
-log it
-logging me
+log it: Hello, World!
+logging me: Hello, World! me
+log it: ==prefix== Hello, World! all ==prefix==
+logging me: ==prefix== Hello, World! all ==prefix==
 ```
 
