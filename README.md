@@ -13,13 +13,13 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
 - **TypeScript**: Configured in `tsconfig.json` under `paths`:
   ```json
   "paths": {
-    "#*": ["./src/*"]
+    "#": ["./src/*"]
   }
   ```
 - **Node.js**: Configured in `package.json` under `imports`:
   ```json
   "imports": {
-    "#": "./dist/*"
+    "#*": "./dist/*"
   }
   ```
 - **Import examples** with path aliases in TypeScript:
