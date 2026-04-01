@@ -12,14 +12,15 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "build": "tsc",
-    "start": "node ./dist/index.js"
+    "start": "node ./dist/index.js",
+    "tsc:check": "tsc --noEmit"
   },
   "dependencies": {
     "typescript": "^5.8.3"
   },
-  "packageManager": "npm@11.4.2+sha512.f90c1ec8b207b625d6edb6693aef23dacb39c38e4217fe8c46a973f119cab392ac0de23fe3f07e583188dae9fd9108b3845ad6f525b598742bd060ebad60bff3",
+  "packageManager": "pnpm@11.0.0-dev.1005+sha512.91f84a392eea348ea4852a182912d2520273a4336f933b78cc44bc931eb999923c097e9433a9b355adc1f725725ea99082fc9f032a559df832632e764c92c798",
   "devDependencies": {
-    "@types/node": "^24.0.10",
-    "vitest": "^3.2.4"
+    "@types/node": "^24.12.0",
+    "vitest": "^4.1.2"
   }
 }
