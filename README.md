@@ -19,7 +19,7 @@ A minimal Node.js + TypeScript starter project demonstrating path aliasing using
 - **Node.js**: Configured in `package.json` under `imports`:
   ```json
   "imports": {
-    "#*": "./dist/*"
+    "#": "./dist/*"
   }
   ```
 - **Import examples** with path aliases in TypeScript:
